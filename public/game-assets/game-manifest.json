@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.0",
+  "studio": "Lingo Legacy Games",
+  "status": "promotion-ready-development",
+  "activation": {
+    "production": false,
+    "reason": "Live release gates require independently verifiable CI/device/store evidence."
+  },
+  "games": [
+    {
+      "id": "thats-my-lingo",
+      "title": "That's My Lingo",
+      "identity": "Neon casino-noir wordplay",
+      "palette": [
+        "#070707",
+        "#D8B36A",
+        "#6D3FC0",
+        "#18D6D0"
+      ],
+      "modes": [
+        "solo",
+        "daily",
+        "tournament"
+      ],
+      "features": [
+        "5x3 reels",
+        "20 paylines",
+        "missions",
+        "XP",
+        "achievements",
+        "leaderboards",
+        "store",
+        "wallet-contract",
+        "cloud-save-contract"
+      ],
+      "cta": "Play the build"
+    },
+    {
+      "id": "spades-is-my-lingo",
+      "title": "Spades Is My Lingo",
+      "identity": "Velvet card-club swagger",
+      "palette": [
+        "#08080A",
+        "#B88A44",
+        "#521C66",
+        "#E8E2D0"
+      ],
+      "modes": [
+        "solo",
+        "private-table",
+        "multiplayer-contract"
+      ],
+      "features": [
+        "table lobby",
+        "deal flow",
+        "tricks",
+        "scoreboard",
+        "emotes",
+        "presence-contract",
+        "replay"
+      ],
+      "cta": "Join the table"
+    },
+    {
+      "id": "uhno-lingo-university",
+      "title": "UhNo Lingo University",
+      "identity": "Campus game-show energy",
+      "palette": [
+        "#10131B",
+        "#F4C84A",
+        "#C33B5F",
+        "#6D8BFF"
+      ],
+      "modes": [
+        "solo",
+        "classroom",
+        "challenge-coop"
+      ],
+      "features": [
+        "courses",
+        "challenge deck",
+        "power cards",
+        "XP",
+        "badges",
+        "events",
+        "leaderboard"
+      ],
+      "cta": "Enter campus"
+    },
+    {
+      "id": "lingo-eruptions",
+      "title": "Lingo Eruptions",
+      "identity": "Volcanic arcade spectacle",
+      "palette": [
+        "#110806",
+        "#F05A28",
+        "#D8B36A",
+        "#5C2A8E"
+      ],
+      "modes": [
+        "arcade",
+        "score-attack",
+        "challenge-coop"
+      ],
+      "features": [
+        "eruption events",
+        "combo meter",
+        "boss rounds",
+        "powerups",
+        "leaderboards",
+        "event track"
+      ],
+      "cta": "Start eruption"
+    },
+    {
+      "id": "cashman-lingo-mania",
+      "title": "Cashman Lingo Mania",
+      "identity": "Glitzy retro prize-show chaos",
+      "palette": [
+        "#090909",
+        "#F1C75B",
+        "#A51D72",
+        "#1ED6A5"
+      ],
+      "modes": [
+        "solo",
+        "bonus-round",
+        "tournament"
+      ],
+      "features": [
+        "bonus wheel",
+        "jackpot-style virtual prizes",
+        "missions",
+        "collections",
+        "store-contract",
+        "seasonal events"
+      ],
+      "cta": "Enter the show"
+    }
+  ],
+  "shared": [
+    "Lingo ID contract",
+    "profile",
+    "XP",
+    "achievements",
+    "rewards",
+    "digital items",
+    "cross-experience progression",
+    "settings",
+    "accessibility",
+    "notifications-contract",
+    "analytics-contract",
+    "telemetry",
+    "asset registry",
+    "audio director",
+    "loading states",
+    "error states",
+    "store surfaces",
+    "promo surfaces",
+    "test hooks"
+  ],
+  "promotionFormats": [
+    "16:9 hero",
+    "1:1 social",
+    "9:16 reel/story",
+    "app-store feature art",
+    "google-play feature art",
+    "thumbnail",
+    "launch trailer"
+  ],
+  "assetRequirements": [
+    "logo",
+    "title-screen",
+    "loading-screen",
+    "hero-art",
+    "avatar",
+    "npc-or-card-set",
+    "environment-or-table",
+    "ui-icons",
+    "vfx",
+    "music",
+    "sfx",
+    "voice",
+    "store-art",
+    "achievement-icons"
+  ],
+  "testing": [
+    "unit",
+    "integration",
+    "e2e",
+    "interaction-smoke",
+    "responsive",
+    "accessibility",
+    "audio",
+    "asset-manifest",
+    "security-scan-contract",
+    "store-package-contract"
+  ]
+}
