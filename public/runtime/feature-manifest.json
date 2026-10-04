@@ -1,0 +1,9 @@
+{
+  "schemaVersion":"1.0",
+  "runtime":"lingo-games",
+  "featureSets":["realms","story","solo","co-op","multiplayer","minigames","stores","progression","audio","visual-assets","social","live-ops"],
+  "systems":["realm-engine","story-engine","session-engine","inventory-engine","store-engine","minigame-engine","audio-director","asset-registry","telemetry-contract"],
+  "productionActivation":false,
+  "firebaseMode":"contract-only",
+  "cloudflareDelivery":"configured-not-deployed"
+}
