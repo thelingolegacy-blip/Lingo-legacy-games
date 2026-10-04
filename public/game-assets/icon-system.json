@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "style": "industrial-noir monoline",
+  "icons": [
+    "play",
+    "pause",
+    "settings",
+    "sound",
+    "music",
+    "profile",
+    "wallet",
+    "xp",
+    "achievement",
+    "leaderboard",
+    "store",
+    "friends",
+    "party",
+    "quest",
+    "map",
+    "photo",
+    "loading",
+    "back",
+    "next",
+    "close",
+    "volume",
+    "report",
+    "help"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "pressed",
+    "disabled",
+    "active",
+    "loading",
+    "success",
+    "error"
+  ],
+  "accessibility": "Each icon must include an accessible label and remain understandable without color alone."
+}

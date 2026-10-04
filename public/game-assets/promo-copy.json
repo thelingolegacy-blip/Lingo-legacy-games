@@ -1,0 +1,36 @@
+{
+  "studio": "Lingo Legacy Games",
+  "tagline": "Loyalty. Legacy. Language.",
+  "campaigns": [
+    {
+      "game": "That's My Lingo",
+      "hook": "Spin your style. Build your legacy.",
+      "body": "A signature Lingo game experience with reels, missions, progression, rewards, and a full studio interface.",
+      "cta": "Play the build"
+    },
+    {
+      "game": "Spades Is My Lingo",
+      "hook": "Every hand tells a story.",
+      "body": "A premium card-table experience built around strategy, personality, tables, scoreboards, and social play.",
+      "cta": "Join the table"
+    },
+    {
+      "game": "UhNo Lingo University",
+      "hook": "Class is in session.",
+      "body": "Learn the game, stack power cards, clear challenges, and climb the campus ladder.",
+      "cta": "Enter campus"
+    },
+    {
+      "game": "Lingo Eruptions",
+      "hook": "Heat up the leaderboard.",
+      "body": "Arcade pressure, escalating combos, eruption events, and spectacle-driven challenge runs.",
+      "cta": "Start eruption"
+    },
+    {
+      "game": "Cashman Lingo Mania",
+      "hook": "Big energy. Bigger moments.",
+      "body": "Retro prize-show flair fused with Lingo progression, bonus rounds, collections, and live event hooks.",
+      "cta": "Enter the show"
+    }
+  ]
+}

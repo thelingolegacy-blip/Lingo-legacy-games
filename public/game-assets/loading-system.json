@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "sequence": [
+    "brand-mark",
+    "game-mark",
+    "progress",
+    "tip",
+    "ready"
+  ],
+  "behavior": [
+    "preload-manifest",
+    "verify-required-assets",
+    "initialize-runtime",
+    "initialize-audio-on-user-gesture",
+    "enter-ready-state"
+  ],
+  "failClosed": true,
+  "copy": {
+    "that's-my-lingo": "Shuffling the Lingo...",
+    "spades-is-my-lingo": "Dealing the table...",
+    "uhno-lingo-university": "Opening the campus...",
+    "lingo-eruptions": "Pressure rising...",
+    "cashman-lingo-mania": "Lights on. Show time..."
+  }
+}

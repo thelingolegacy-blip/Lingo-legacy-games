@@ -1,0 +1,113 @@
+{
+  "schema": "lingo-mini-game-registry",
+  "version": "1.0.0",
+  "production": false,
+  "shared": true,
+  "modules": [
+    {
+      "id": "lingo-jeopardy",
+      "category": "quiz",
+      "core": [
+        "categories",
+        "clues",
+        "answers",
+        "timers",
+        "wagers",
+        "streaks",
+        "final-round"
+      ]
+    },
+    {
+      "id": "lingo-pit-ball",
+      "category": "arcade-physics",
+      "core": [
+        "aim",
+        "launch",
+        "physics",
+        "targets",
+        "combos",
+        "hazards",
+        "bonuses"
+      ]
+    },
+    {
+      "id": "wheel-of-lingo",
+      "category": "wheel-reward",
+      "core": [
+        "spin",
+        "decelerate",
+        "land",
+        "resolve",
+        "bonus",
+        "result"
+      ]
+    },
+    {
+      "id": "lingo-rep-battle",
+      "category": "competitive",
+      "core": [
+        "select",
+        "round",
+        "attack",
+        "counter",
+        "combo",
+        "score",
+        "result"
+      ]
+    },
+    {
+      "id": "craps",
+      "category": "virtual-dice-table",
+      "core": [
+        "table",
+        "virtual-bet",
+        "roll",
+        "resolve",
+        "settle",
+        "next-roll"
+      ],
+      "realMoney": false
+    },
+    {
+      "id": "rocket",
+      "category": "risk-reaction",
+      "core": [
+        "start",
+        "multiplier",
+        "cash-out-decision",
+        "resolve"
+      ],
+      "realMoney": false
+    }
+  ],
+  "hostGames": [
+    "thats-my-lingo",
+    "spades-is-my-lingo",
+    "uhno-lingo-university",
+    "lingo-eruptions",
+    "cashman-lingo-mania"
+  ],
+  "hostSkinModes": [
+    "native",
+    "card-table",
+    "campus",
+    "volcanic-arcade",
+    "prize-show"
+  ],
+  "sharedContract": [
+    "boot",
+    "rules",
+    "tutorial",
+    "state-machine",
+    "input-validation",
+    "qa-seed",
+    "result",
+    "cinematic-hooks",
+    "audio-hooks",
+    "accessibility",
+    "reset",
+    "telemetry",
+    "assets",
+    "debug-boundary"
+  ]
+}

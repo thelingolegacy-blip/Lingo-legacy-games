@@ -1,0 +1,111 @@
+{
+  "schema": "lingo-legacy-cinematic-systems",
+  "version": "1.0.0",
+  "production": false,
+  "profiles": [
+    "establishing",
+    "gameplay",
+    "close-up",
+    "reward",
+    "victory",
+    "defeat",
+    "loading",
+    "pause",
+    "error"
+  ],
+  "quality": [
+    "asset-manifest",
+    "responsive",
+    "reduced-motion",
+    "performance-budget",
+    "fallback",
+    "test-hook",
+    "telemetry-contract"
+  ],
+  "eventGrammar": [
+    "GAME_BOOT",
+    "WORLD_ENTER",
+    "ROUND_START",
+    "ACTION_COMMITTED",
+    "COMBO_STARTED",
+    "BONUS_TRIGGERED",
+    "REWARD_PRESENTED",
+    "VICTORY",
+    "DEFEAT",
+    "CHECKPOINT",
+    "TUTORIAL_STEP",
+    "ERROR_RECOVERED"
+  ],
+  "cheats": {
+    "enabledEnvironments": [
+      "development",
+      "qa"
+    ],
+    "productionDefault": false,
+    "auditRequired": true,
+    "categories": [
+      "navigation",
+      "state",
+      "progression",
+      "visual-debug",
+      "telemetry-debug",
+      "save-reset"
+    ]
+  },
+  "tutorials": {
+    "stateMachine": [
+      "INTRO",
+      "DEMONSTRATE",
+      "PLAYER_ATTEMPT",
+      "VALIDATE",
+      "REINFORCE",
+      "COMPLETE"
+    ],
+    "sharedFeatures": [
+      "first-run",
+      "contextual-prompts",
+      "practice",
+      "replay",
+      "accessibility",
+      "reduced-motion",
+      "versioning"
+    ]
+  },
+  "games": {
+    "thats-my-lingo": [
+      "payline-evaluation",
+      "wild-scatter",
+      "bonus",
+      "virtual-currency",
+      "xp"
+    ],
+    "spades-is-my-lingo": [
+      "deal",
+      "bid",
+      "follow-suit",
+      "trick-resolution",
+      "score"
+    ],
+    "uhno-lingo-university": [
+      "question-state",
+      "answer-validation",
+      "streaks",
+      "timers",
+      "difficulty"
+    ],
+    "lingo-eruptions": [
+      "movement",
+      "hazards",
+      "combos",
+      "environment-triggers",
+      "checkpoints"
+    ],
+    "cashman-lingo-mania": [
+      "round-state",
+      "selection",
+      "reveal",
+      "prize-resolution",
+      "bonus"
+    ]
+  }
+}
