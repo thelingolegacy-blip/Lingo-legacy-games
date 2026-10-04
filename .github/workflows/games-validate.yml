@@ -1,0 +1,43 @@
+name: Lingo Games Validate
+
+on:
+  push:
+    branches: [main, 'studio/**']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install
+      - run: npm run typecheck
+      - run: npm run build
+
+  flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: cd mobile && flutter pub get
+      - run: cd mobile && flutter analyze
+
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Firebase is contract-only
+        run: node -e "const p=require('./firebase.contract.json'); if(p.productionMutation!==false) process.exit(1); console.log('Firebase contract boundary: PASS')"
+      - name: Verify Cloudflare config exists
+        run: test -f wrangler.jsonc
