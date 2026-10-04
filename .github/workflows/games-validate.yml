@@ -1,0 +1,56 @@
+name: Lingo Games Validate
+
+on:
+  push:
+    branches: [main, 'studio/**']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: games-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install
+      - run: npm run typecheck
+      - run: npm run build
+      - name: Verify static export
+        run: test -f out/index.html
+
+  flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: cd mobile && flutter pub get
+      - run: cd mobile && flutter analyze
+
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Firebase contract boundary
+        run: node -e "const p=require('./firebase.contract.json'); if(p.mode!=='contract-only'||p.productionMutation!==false||p.credentials!=='external-secret') process.exit(1); console.log('Firebase contract boundary: PASS')"
+      - name: Verify Cloudflare configuration
+        run: node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('wrangler.jsonc','utf8')); if(!p.name||!p.assets?.directory) process.exit(1); console.log('Cloudflare config contract: PASS')"
+      - name: Verify no committed secrets
+        run: |
+          if grep -RInE '(AIza[0-9A-Za-z_-]{20,}|-----BEGIN (RSA|EC|OPENSSH|PRIVATE) KEY-----|CLOUDFLARE_API_TOKEN=|FIREBASE_TOKEN=)' . --exclude-dir=.git; then
+            echo "Potential credential material detected"
+            exit 1
+          fi
+          echo "Secret scan: PASS"

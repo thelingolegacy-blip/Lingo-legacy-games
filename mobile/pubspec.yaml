@@ -1,0 +1,11 @@
+name: lingo_legacy_games
+description: Cross-platform companion shell for Lingo Legacy standalone games.
+publish_to: none
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+flutter:
+  uses-material-design: true

@@ -1,0 +1,1 @@
+{"mode":"contract-only","services":["Auth","Firestore","Analytics","Remote Config"],"credentials":"external-secret","productionMutation":false,"note":"No Firebase project ID, credentials, rules, or production bindings are fabricated in this repository."}
