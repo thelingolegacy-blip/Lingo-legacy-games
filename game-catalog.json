@@ -1,0 +1,11 @@
+{
+  "schemaVersion":"1.0",
+  "studio":"Lingo Legacy Games",
+  "games":[
+    {"id":"tricias-escape","title":"Tricia's Escape","modes":["solo","co-op-expedition"],"realm":"enchanted-frontier","minigames":["rune-match","potion-craft","relic-hunt"]},
+    {"id":"doughboy-oasis","title":"Doughboy Oasis","modes":["solo","multiplayer-social"],"realm":"stylized-oasis","minigames":["cooking-rush","arcade-challenge","delivery-run","decorating"]},
+    {"id":"crazy-weasols","title":"Crazy Weasol's","modes":["solo","challenge-co-op"],"realm":"surreal-lab","minigames":["reaction-trial","physics-room","chase-challenge"]},
+    {"id":"silly-in-philly","title":"Silly in Philly: The Streets","modes":["solo-story","multiplayer-free-roam"],"realm":"fictionalized-city","minigames":["street-basketball","rhythm-battle","courier-run","card-table"]},
+    {"id":"jersey-shore-undead","title":"Jersey Shore & the Undead","modes":["solo","co-op-2-4"],"realm":"coastal-outbreak","minigames":["barricade-repair","scavenger-run","arcade-survival"]}
+  ]
+}
