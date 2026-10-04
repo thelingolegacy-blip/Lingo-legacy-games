@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "2.0",
+  "runtime": "lingo-nexus",
+  "universe": "lingo-nexus",
+  "featureSets": [
+    "realms",
+    "story",
+    "solo",
+    "co-op",
+    "multiplayer",
+    "minigames",
+    "stores",
+    "progression",
+    "audio",
+    "visual-assets",
+    "social",
+    "live-ops",
+    "cross-realm"
+  ],
+  "systems": [
+    "nexus-id",
+    "realm-engine",
+    "story-engine",
+    "session-engine",
+    "inventory-engine",
+    "store-engine",
+    "minigame-engine",
+    "audio-director",
+    "asset-registry",
+    "telemetry-contract",
+    "travel-gates",
+    "cross-realm-progression"
+  ],
+  "developmentCanon": true,
+  "productionActivation": false,
+  "firebaseMode": "contract-only",
+  "cloudflareDelivery": "configured-not-deployed"
+}
