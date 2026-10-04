@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "suite": [
+    "boot renders",
+    "loading completes",
+    "CTA buttons respond",
+    "game cards open detail state",
+    "audio starts only after gesture",
+    "keyboard navigation",
+    "reduced motion",
+    "mobile layout",
+    "tablet layout",
+    "desktop layout",
+    "missing-asset fail state",
+    "store CTA contract",
+    "test build identifier",
+    "analytics event contract"
+  ],
+  "productionGate": "These checks define the test burden; passing claims require actual runner/device evidence."
+}
