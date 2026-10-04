@@ -1,0 +1,100 @@
+{
+  "schema": "lingo-legacy-standalone-games",
+  "version": "1.0.0",
+  "production": false,
+  "independence": {
+    "gameplayDependencyOnSharedServices": false,
+    "gracefulAdapterFailure": true
+  },
+  "completion": [
+    "boot",
+    "loading",
+    "rules",
+    "gameplay-state",
+    "tutorial",
+    "progression",
+    "save-checkpoint",
+    "cinematics",
+    "audio",
+    "accessibility",
+    "debug-boundary",
+    "test-hooks",
+    "assets",
+    "telemetry",
+    "results",
+    "reset"
+  ],
+  "games": [
+    {
+      "id": "thats-my-lingo",
+      "genre": "slot-style wordplay",
+      "loop": [
+        "boot",
+        "lobby",
+        "spin",
+        "resolve",
+        "evaluate",
+        "bonus",
+        "reward",
+        "results"
+      ]
+    },
+    {
+      "id": "spades-is-my-lingo",
+      "genre": "trick-taking card game",
+      "loop": [
+        "boot",
+        "table",
+        "deal",
+        "bid",
+        "turn-loop",
+        "trick-resolution",
+        "score",
+        "result"
+      ]
+    },
+    {
+      "id": "uhno-lingo-university",
+      "genre": "campus game-show",
+      "loop": [
+        "boot",
+        "campus",
+        "class",
+        "question",
+        "answer",
+        "streak",
+        "checkpoint",
+        "result"
+      ]
+    },
+    {
+      "id": "lingo-eruptions",
+      "genre": "arcade survival",
+      "loop": [
+        "boot",
+        "hub",
+        "level",
+        "move",
+        "hazards",
+        "combo",
+        "eruption",
+        "checkpoint",
+        "result"
+      ]
+    },
+    {
+      "id": "cashman-lingo-mania",
+      "genre": "interactive prize-show",
+      "loop": [
+        "boot",
+        "show-open",
+        "round",
+        "choice",
+        "reveal",
+        "prize",
+        "bonus",
+        "results"
+      ]
+    }
+  ]
+}
