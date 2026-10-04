@@ -1,0 +1,1 @@
+window.LingoGamesRuntime={version:"1.0.0",booted:false,boot(){this.booted=true;document.documentElement.dataset.lingoRuntime="ready";window.dispatchEvent(new CustomEvent("lingo:runtime-ready",{detail:{version:this.version}}));return this;},emit(name,detail={}){window.dispatchEvent(new CustomEvent(name,{detail}));}};
