@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0",
+  "cues": [
+    "boot",
+    "button",
+    "confirm",
+    "error",
+    "reward",
+    "level-up",
+    "achievement",
+    "card-deal",
+    "spin",
+    "reel-stop",
+    "combo",
+    "eruption",
+    "jackpot-style-virtual-win",
+    "ambient"
+  ],
+  "policy": "No copyrighted tracks committed. Production music/voice requires owned or properly licensed assets.",
+  "engine": "shared audio director with per-game profiles"
+}
