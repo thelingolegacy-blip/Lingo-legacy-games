@@ -1,0 +1,9 @@
+{
+  "schemaVersion":"1.0",
+  "assetPolicy":"original-or-properly-licensed",
+  "visualSets":["key-art","realm-backdrops","character-concepts","npc-sheets","environment-kits","props","ui-icons","vfx","maps","loading-art"],
+  "audioSets":["adaptive-score","ambient-beds","ui-sfx","movement-sfx","combat-event-sfx","voice","cinematic-stingers"],
+  "perGameRequired":["logo","title-screen","loading-screen","realm-key-art","player-avatar","npc-set","environment-kit","ui-kit","music-profile","sfx-pack","store-art","achievement-icons"],
+  "delivery":["source","normalized","optimized","checksum","manifest","runtime-validation"],
+  "generatedPlaceholdersAreNonProduction":true
+}
