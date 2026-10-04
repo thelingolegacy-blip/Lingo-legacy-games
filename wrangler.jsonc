@@ -1,1 +1,1 @@
-{"$schema":"node_modules/wrangler/config-schema.json","name":"lingo-legacy-games-studio","compatibility_date":"2026-10-04","workers_dev":false}
+{"$schema":"node_modules/wrangler/config-schema.json","name":"lingo-legacy-games-studio","compatibility_date":"2026-10-04","workers_dev":false,"assets":{"directory":"./out","binding":"ASSETS"}}
