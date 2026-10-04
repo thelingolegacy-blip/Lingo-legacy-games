@@ -1,0 +1,1 @@
+{"schemaVersion":"1.0","runtime":"lingo-games","status":"development-ready","surfaces":["nextjs","flutter"],"capabilities":["shared-runtime","procedural-music","game-catalog"],"productionActivation":false,"firebaseMode":"contract-only","cloudflareDelivery":"configured-not-deployed"}
