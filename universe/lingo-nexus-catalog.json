@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "2.0",
+  "studio": "Lingo Legacy Games",
+  "universe": {
+    "id": "lingo-nexus",
+    "title": "The Lingo Nexus",
+    "subtitle": "One universe. Many realms. One living legacy.",
+    "status": "development-canon",
+    "rule": "Existing game models are source DNA; titles, worlds, characters, mechanics and presentation are re-authored into original Nexus canon."
+  },
+  "sharedWorld": {
+    "hub": "Nexus Central",
+    "pillars": [
+      "Realms",
+      "Story",
+      "Play",
+      "Mini-Games",
+      "Stores",
+      "Audio",
+      "Visuals",
+      "Social",
+      "Progression",
+      "Live Operations"
+    ],
+    "sharedSystems": [
+      "Nexus ID",
+      "Legacy XP",
+      "Nexus Credits (virtual)",
+      "Collections",
+      "Achievements",
+      "Seasonal Events",
+      "Cloud Save Contract",
+      "Party/Presence",
+      "News & Events",
+      "Accessibility"
+    ],
+    "travel": [
+      "realm-gates",
+      "fast-travel",
+      "story-portals"
+    ]
+  },
+  "games": [
+    {
+      "id": "tricias-escape",
+      "title": "Tricia's Escape: The Emberwild",
+      "legacyModel": "fantasy-action-adventure",
+      "realm": "emberwild-frontier",
+      "modes": [
+        "solo",
+        "co-op-expedition"
+      ],
+      "story": "The Emberwild is destabilizing as ancient gates reopen.",
+      "minigames": [
+        "rune-match",
+        "potion-craft",
+        "relic-hunt"
+      ],
+      "features": [
+        "character-creator",
+        "loadouts",
+        "quest-codex",
+        "photo-mode",
+        "adaptive-music"
+      ]
+    },
+    {
+      "id": "doughboy-oasis",
+      "title": "Doughboy Oasis: Neon Dunes",
+      "legacyModel": "persistent-virtual-world",
+      "realm": "neon-dunes-oasis",
+      "modes": [
+        "solo",
+        "social-multiplayer"
+      ],
+      "story": "A desert entertainment city powered by flavor-tech and impossible deliveries.",
+      "minigames": [
+        "cooking-rush",
+        "arcade-challenge",
+        "delivery-run",
+        "decorating"
+      ],
+      "features": [
+        "housing",
+        "outfits",
+        "shops",
+        "social-hub",
+        "events",
+        "photo-mode"
+      ]
+    },
+    {
+      "id": "crazy-weasols",
+      "title": "Crazy Weasol's: The Null Lab",
+      "legacyModel": "dark-3d-platform-adventure",
+      "realm": "null-laboratory",
+      "modes": [
+        "solo",
+        "challenge-co-op"
+      ],
+      "story": "Experimental physics have torn holes into spaces that should not exist.",
+      "minigames": [
+        "reaction-trial",
+        "physics-room",
+        "chase-challenge"
+      ],
+      "features": [
+        "challenge-rooms",
+        "collectibles",
+        "replay-capture",
+        "adaptive-audio"
+      ]
+    },
+    {
+      "id": "silly-in-philly",
+      "title": "Silly in Philly: Nexus Streets",
+      "legacyModel": "urban-open-world",
+      "realm": "nexus-streets",
+      "modes": [
+        "solo-story",
+        "multiplayer-free-roam"
+      ],
+      "story": "A fictionalized legacy city where neighborhoods connect directly to every Nexus realm.",
+      "minigames": [
+        "street-basketball",
+        "rhythm-battle",
+        "courier-run",
+        "card-table"
+      ],
+      "features": [
+        "free-roam",
+        "crew-system",
+        "vehicles",
+        "shops",
+        "events",
+        "social"
+      ]
+    },
+    {
+      "id": "jersey-shore-undead",
+      "title": "Jersey Shore & the Undead: Red Tide",
+      "legacyModel": "co-op-survival-horror",
+      "realm": "red-tide-coast",
+      "modes": [
+        "solo",
+        "co-op-2-4"
+      ],
+      "story": "A coastal anomaly brings the dead back through the tide gates.",
+      "minigames": [
+        "barricade-repair",
+        "scavenger-run",
+        "arcade-survival"
+      ],
+      "features": [
+        "2-4-player",
+        "base-defense",
+        "loadouts",
+        "co-op-progression",
+        "adaptive-horror-audio"
+      ]
+    },
+    {
+      "id": "thats-my-lingo",
+      "title": "That's My Lingo: Neon Fortune",
+      "legacyModel": "social-slot-arcade",
+      "realm": "neon-fortune-district",
+      "modes": [
+        "solo",
+        "social-lobby"
+      ],
+      "story": "A high-energy arcade district where every spin unlocks pieces of the Nexus.",
+      "minigames": [
+        "reel-rush",
+        "bonus-burst",
+        "collection-run"
+      ],
+      "features": [
+        "5x3-reels",
+        "20-paylines",
+        "wilds",
+        "scatters",
+        "free-spins",
+        "missions",
+        "events",
+        "leaderboards",
+        "collections"
+      ]
+    },
+    {
+      "id": "spades-is-my-lingo",
+      "title": "Spades Is My Lingo: Blacktop Table",
+      "legacyModel": "card-table-social",
+      "realm": "blacktop-table-hall",
+      "modes": [
+        "solo-vs-ai",
+        "private-table",
+        "multiplayer"
+      ],
+      "story": "The Nexus's legendary table hall turns every hand into a social rivalry.",
+      "minigames": [
+        "trick-run",
+        "bid-blitz",
+        "partner-challenge"
+      ],
+      "features": [
+        "private-tables",
+        "matchmaking",
+        "profiles",
+        "crews",
+        "leaderboards",
+        "emotes",
+        "spectate"
+      ]
+    },
+    {
+      "id": "uhno-lingo-university",
+      "title": "UhNo Lingo University: The Academy",
+      "legacyModel": "party-card-campus",
+      "realm": "lingo-academy",
+      "modes": [
+        "solo",
+        "party",
+        "multiplayer"
+      ],
+      "story": "A strange academy where lessons, rivalries and experiments reshape the Nexus.",
+      "minigames": [
+        "color-switch",
+        "challenge-lab",
+        "speed-round"
+      ],
+      "features": [
+        "campus-map",
+        "clubs",
+        "quests",
+        "achievements",
+        "events",
+        "social-lobby"
+      ]
+    },
+    {
+      "id": "eruptions",
+      "title": "Eruptions: Riftfall",
+      "legacyModel": "arcade-action",
+      "realm": "riftfall-caldera",
+      "modes": [
+        "solo",
+        "co-op"
+      ],
+      "story": "Volcanic rifts are opening beneath the Nexus and rewriting terrain in real time.",
+      "minigames": [
+        "rift-dash",
+        "core-break",
+        "hazard-run"
+      ],
+      "features": [
+        "dynamic-terrain",
+        "boss-events",
+        "co-op",
+        "loadouts",
+        "replay-capture"
+      ]
+    },
+    {
+      "id": "cashman",
+      "title": "Cashman: Vault Zero",
+      "legacyModel": "arcade-economy",
+      "realm": "vault-zero",
+      "modes": [
+        "solo",
+        "co-op-challenges"
+      ],
+      "story": "Vault Zero converts skill, risk and strategy into a chain of increasingly dangerous challenges.",
+      "minigames": [
+        "vault-crack",
+        "combo-run",
+        "risk-reward"
+      ],
+      "features": [
+        "challenge-ladders",
+        "virtual-rewards",
+        "collections",
+        "events",
+        "leaderboards"
+      ]
+    }
+  ]
+}
