@@ -1,0 +1,12 @@
+{
+  "schemaVersion":"1.0",
+  "profiles":{
+    "tricias-escape":{"layers":["exploration","magic","combat","boss","victory"],"ambience":"forest-frontier"},
+    "doughboy-oasis":{"layers":["day","night","social","activity","event"],"ambience":"stylized-neighborhood"},
+    "crazy-weasols":{"layers":["platform","danger","chase","comedy","boss"],"ambience":"surreal-lab"},
+    "silly-in-philly":{"layers":["street","mission","night","social","high-energy"],"ambience":"urban-city"},
+    "jersey-shore-undead":{"layers":["calm","tension","horde","escape","safehouse"],"ambience":"coastal-outbreak"}
+  },
+  "controls":["master","music","ambience","sfx","voice","cinematic","accessibility"],
+  "engine":"procedural-studio-score-v1"
+}
